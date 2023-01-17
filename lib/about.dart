@@ -38,14 +38,14 @@ class _AboutScreenState extends State<AboutScreen> {
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
-              Text(
+              const Text(
                 "About me",
                 style: TextStyle(
                   fontSize: 14,
                   fontWeight: FontWeight.w500,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 15,
               ),
               TextField(
@@ -53,7 +53,7 @@ class _AboutScreenState extends State<AboutScreen> {
                 decoration: InputDecoration(
                   border: OutlineInputBorder(
                       borderSide:
-                          BorderSide(width: 1, color: Color(0xffE5E5E5)),
+                          const BorderSide(width: 1, color: Color(0xffE5E5E5)),
                       borderRadius: BorderRadius.circular(10)),
                   hintText: '...Tell everyone something about yourself',
                 ),
@@ -61,7 +61,7 @@ class _AboutScreenState extends State<AboutScreen> {
               Row(
                 mainAxisAlignment: MainAxisAlignment.end,
                 children: [
-                  Text("0/200"),
+                  const Text("0/200"),
                 ],
               ),
               const SizedBox(
