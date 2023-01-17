@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:sing_work/about.dart';
 import 'package:sing_work/firstpage.dart';
 import 'package:sing_work/resume.dart';
 import 'package:sing_work/social_page.dart';
@@ -14,7 +15,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: ResumeScreen(),
+      home: AboutScreen(),
     );
   }
 }
